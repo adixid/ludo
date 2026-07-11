@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-  <title>clovece</title>
+  <title>Ludo</title>
   <link rel="icon" type="image/ico" href="favicon.ico">
   <style>
     *,*::before,*::after {
@@ -107,7 +107,7 @@
       color: rgb(105, 105, 105);
     }
 
-    @media (min-width: 768px) and (max-width: 1022px) { /* tablet resolution */
+    @media (min-width: 768px) and (max-width: 1024px) { /* tablet resolution */
       .ludo {
         height: 520px;
         flex-direction: row;
@@ -124,11 +124,11 @@
       }
     }
 
-    @media (min-width: 1022px) { /* desktop resolution */
+    @media (min-width: 1024px) { /* desktop resolution */
       .ludo {
         flex-direction: row;
         width: 1020px;
-        height: 700px;
+        height: min(700px, 100dvh);
       }
 
       .info-panel {
