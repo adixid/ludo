@@ -1,0 +1,45 @@
+@media (min-width: 768px) and (max-width: 1024px) { /* tablet resolution */
+  .ludo {
+    height: 520px;
+    flex-direction: row;
+  }
+
+  .board {
+    height: 500px;
+    width: 500px;
+  }
+
+  #info-panel {
+    margin-left: 20px;
+    flex: 0 0 268px;
+    height: 500px;
+  }
+
+  .dice {
+    height:160px;
+    width: 160px;
+  }
+
+  .play-dice {
+    width: 110px;
+}
+
+.black-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+    }
+
+@media (min-width: 1025px) { /* desktop resolution */
+  .ludo {
+    flex-direction: row;
+    width: 1020px;
+    height: min(700px, 100dvh);
+  }
+
+  #info-panel {
+    margin-left: 20px;
+    width:268px;
+  }
+}

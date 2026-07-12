@@ -1,0 +1,144 @@
+*,*::before,*::after {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+  }
+
+:root {
+  --background-colour: #fef6b5;
+  --background-dark-mode: rgb(20, 20, 20);
+
+  --safe-orange: rgb(253, 235, 200);
+  --safe-green: rgb(188, 241, 188);
+  --safe-blue: rgb(212, 212, 253);
+  --safe-red: rgb(252, 207, 207);
+}
+
+body {
+  background-color: var(--background-colour);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+.ludo {
+  width: min(100%, 700px);
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+.board {
+  width: min(100%, 700px);
+  aspect-ratio: 1/1;
+  border: 10px red solid;
+  outline: 2px black solid;
+  outline-offset: -16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-area {
+  width: 95%;
+  height: 95%;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: repeat(11, 1fr);
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  background-color: aliceblue;
+  width: 85%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  outline: 1px black solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.safe-orange {
+  outline: 2px orange solid;
+  background-color: var(--safe-orange);
+}      
+
+.safe-green {
+  outline: 2px green solid;
+  background-color: var(--safe-green);
+}      
+
+.safe-blue {
+    outline: 2px blue solid;
+  background-color: var(--safe-blue);
+}      
+
+.safe-red {
+    outline: 2px red solid;
+  background-color: var(--safe-red);
+}
+
+#square34, #square18, #square86, #square102 { 
+  font-size: clamp(10px, 4vw, 40px);
+  color: rgb(105, 105, 105);
+}
+
+#info-panel {
+  width: 100%;
+  flex: 1;
+  border: 10px rgb(243, 142, 27) solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.info {
+  display: flex;
+}
+
+.dice {
+  margin-bottom:20px;
+  height:240px;
+  width: 240px;
+  border: 1px black dashed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.roll-dice-title {
+  padding-top: 20px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.play-dice {
+  height: 140px;
+  width: 140px;
+  background-color: aliceblue;
+  border: 1px black solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.one {
+  justify-content: center;
+  align-items: center;
+}
+
+.black-circle {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: black;
+    }
