@@ -31,7 +31,6 @@
   }
 }
 
-
 @media (min-width: 1025px) { /* desktop resolution */
   .ludo {
     flex-direction: row;
@@ -43,4 +42,8 @@
     margin-left: 20px;
     width:268px;
   }
+
+  .dice {
+  height:40%;
+}
 }
