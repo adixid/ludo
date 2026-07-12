@@ -1,0 +1,92 @@
+.one, .two, .three, .four, .five, .six {
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.one {
+  display: none;
+  justify-content: center;
+  align-items: center;
+    
+  }
+
+.two {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+ 
+}
+
+#two-top {
+  margin-top: 10%;
+  margin-right: 45%;
+  justify-content: flex-start;  
+}
+
+#two-bottom {
+  margin-bottom: 10%;
+  margin-left: 45%;
+  justify-content: flex-end;
+}
+
+.three {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#three-top {
+  margin-right: 50%;
+  margin-top:10%;
+}
+
+#three-bottom {
+  margin-left: 50%;
+  margin-bottom:10%;
+}
+
+.four {
+  display: none;
+  flex-direction: column;
+}
+
+.four-row {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.five {
+  display: flex;
+  flex-direction: column;
+}
+.five-row {
+  display: flex;
+  width: 100%;
+  height: 30%;
+  justify-content: space-around;
+  align-items:center;
+}
+
+
+.six {
+  display: none;
+  flex-direction: column;
+}
+
+.six-row {
+  display: flex;
+  width: 100%;
+  height: 30%;
+  justify-content: space-around;
+  align-items:center;
+}
