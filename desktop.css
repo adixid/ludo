@@ -10,7 +10,6 @@
   }
 
   #info-panel {
-    margin-left: 20px;
     flex: 0 0 268px;
     height: 500px;
   }
@@ -22,14 +21,16 @@
 
   .play-dice {
     width: 110px;
+  }
+
+  .black-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+  }
 }
 
-.black-circle {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: black;
-    }
 
 @media (min-width: 1025px) { /* desktop resolution */
   .ludo {
