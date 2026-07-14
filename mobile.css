@@ -57,6 +57,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  /*border: 1px black solid;*/
 }
 
 .circle {
@@ -110,13 +111,25 @@ body {
 }
 
 .dice {
+  transition: 0.3s;
   margin-bottom:20px;
   height:60%;
   aspect-ratio: 1/1;
-  border: 1px black dashed;
+  /*border: 1px black dashed;*/
   display: flex;
   flex-direction: column;
   align-items: center;
+  cursor: pointer;
+}
+
+.dice:hover {
+  transition: 0.3s;
+  background-color: rgb(255, 211, 211);
+}
+
+.dice:hover .play-dice {
+  transition: 0.3s;
+  background-color: rgb(255, 211, 211);
 }
 
 .roll-dice-title {
@@ -127,6 +140,7 @@ body {
 }
 
 .play-dice {
+  transition: 0.3s;
   height: 60%;
   aspect-ratio: 1/1;
   background-color: aliceblue;

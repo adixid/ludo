@@ -10,15 +10,13 @@
   display: none;
   justify-content: center;
   align-items: center;
-    
-  }
+}
 
 .two {
   display: none;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
- 
 }
 
 #two-top {
@@ -62,7 +60,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  
 }
 
 .five {
@@ -76,7 +73,6 @@
   justify-content: space-around;
   align-items:center;
 }
-
 
 .six {
   display: none;
